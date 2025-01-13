@@ -1073,6 +1073,13 @@ scrollbar-width:none;
     .dd-logo-lap,.dd-text-lap.user-button-lap2,.inline-arrow-lap{
         display:flex;
     }
+    .inline-arrow-lap{
+        justify-content: center;
+        align-items: center;
+    }
+    .inline-arrow-lap svg{
+        fill:black;
+    }
     .dd-logo-mob,.dd-text-mob.user-button-lap,.app-stores,.inline-arrow{
         display:none;
     }
@@ -1141,6 +1148,9 @@ scrollbar-width:none;
         border-radius: 9999px;
         justify-content: center;
         align-items: center;
+    }
+    .inline-arrow-lap svg{
+        fill:white;
     }
     .block-one{
         flex-direction: column;
@@ -1232,7 +1242,7 @@ scrollbar-width:none;
         justify-content: flex-start;
     }
     .lazyload-wrapper4 img{
-        width:738px;
+        width:724px;
     }
     .customwrapper0{
         width:unset;
