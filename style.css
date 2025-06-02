@@ -490,7 +490,7 @@
     display:block;
 }
 .scroll-block{
-    
+   width:100%;
 background-color: rgb(254,241,238);
 }
 /* }
@@ -812,7 +812,8 @@ scrollbar-width:none;
 }
 .lazyload-wrapper,.lazyload-wrapper3,.lazyload-wrapper4,.lazyload-wrapper5{
     width:100%;
-}.crave-lap{
+}
+.crave-lap{
     display:none;
 }
 @media screen and (min-width:375px){
